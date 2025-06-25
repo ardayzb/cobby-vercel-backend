@@ -18,7 +18,7 @@ export default async function handler(req, res) {
   console.log("📥 Received user data:", { id, name, username });
 
   // 🔗 Google Apps Script Web App URL (expects POST now)
-  const scriptUrl = "https://script.google.com/macros/s/AKfycbzXSQA-azJr6Zt1M4Y_7O-f8z7cWwu5ffCMJ0ErvEinHAPdeHEuw4OIwfR0DB7Q9UUTnQ/exec";
+  const scriptUrl = "https://script.google.com/macros/s/AKfycby0syKZRacWu6L0ex1ObAgwTcsjAz3AjApBtUATKG3TOEBCgV5nXQg6VmKciDHaY7pi8g/exec";
 
   try {
     const response = await fetch(scriptUrl, {
