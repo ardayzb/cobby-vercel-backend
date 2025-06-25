@@ -30,7 +30,7 @@ export default async function handler(req, res) {
       reply_markup: {
         inline_keyboard: [[
           {
-            text: "Launch App",
+            text: "CLAIM OFFERS",
             web_app: {
               url: "https://ardayzb.github.io/project-cobby"
             }
